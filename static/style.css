@@ -1,0 +1,120 @@
+/* Example: Add icon spacing for buttons and table headers */
+.btn .bi, th .bi {
+    margin-right: 6px;
+    vertical-align: middle;
+}
+.table-responsive {
+   overflow-x: auto;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    /* removed padding-top for fixed header */
+}
+
+.fixed-header {
+    background: #fff;
+    z-index: 1030;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+}
+
+/* .fixed-header is no longer fixed */
+}
+
+.navbar {
+    background: linear-gradient(90deg, #343a40, #212529);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.navbar .btn {
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+form input, form select {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    padding: 8px;
+}
+
+.alert-secondary {
+    background-color: #e9ecef;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#searchInput {
+    border-radius: 20px;
+    padding-left: 35px;
+    background: url('https://cdn-icons-png.flaticon.com/512/622/622669.png') no-repeat 10px center;
+    background-size: 18px;
+}
+
+.table {
+    background: #fff;
+    border-radius: 8px;
+}
+
+.table thead {
+    background-color: #343a40;
+    color: #fff;
+    /* Removed sticky positioning */
+}
+}
+
+.table tbody tr:hover {
+    background-color: #f1f3f5;
+}
+
+.toast-message {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #343a40;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    z-index: 9999;
+}
+
+@media (max-width: 768px) {
+    .row.g-3 > div {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .navbar .btn {
+        margin-bottom: 10px;
+    }
+}
+
+.fixed-title {
+    position: sticky;
+    top: 120px;
+    background: #fff;
+    z-index: 1030;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+}
+.table thead {
+    /* position: sticky; */
+    top: 160px;
+    background-color: #343a40;
+    color: #fff;
+    z-index: 1020;
+}
+.table-container {
+    margin-top: 40px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
